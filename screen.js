@@ -6,8 +6,8 @@ class Screen{
     this.yMax = yMax;
     this.ctx = canvas.getContext('2d');
     this.color;
-    this.distanciaInicial = 5000;
-    this.distanciaActual = 5000;
+    this.distanciaInicial = 50000;
+    this.distanciaActual = 50000;
     this.sentDragon = false;
     this.speedPlayer = 4;
     this.speedMinPlayer = 4;
